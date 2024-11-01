@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/css.css">
+</head>
+<body>
+   <center>
+         <div class="container">
+            <form action="formm.html" method="GET"> 
+               
+                    <div class="form">
+                        
+                        <div class="vvv">
+                            
+                            <h1>Reset Your Password<br></h1>
+                            <div class="www">Enter Password<br>
+                                 <input type="password" placeholder="Password" id="password" class="user" size="30" required>
+                            </div>
+<br>    
+                           <div> <label for="confirm-password">Enter Password Again:</label><br>
+                            <input type="password" id="confirm-password" size="30" class="user" placeholder="Reenter Password" name="confirm-password" 
+                                    title="Passwords must match" 
+                                     oninput="this.setCustomValidity(this.value != document.getElementById('password').value ? 'Passwords do not match.' : '')">
+
+                            <span class="error-message">Passwords do not match.</span><br><br>
+                        </div><br>
+                            
+                            
+                              
+                    
+                    </div>                  
+                        <br>
+                        
+                            <button type="submit">Submit</button>
+                        
+                        
+                      
+        </div>
+    </form>
+            </div>
+        </center>
+</body>
+</html>
